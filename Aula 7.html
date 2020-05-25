@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 7</title>
+</head>
+
+<body>
+
+
+
+
+
+
+    <script>
+
+        //Exercico 1
+
+        // let lab = parseFloat(prompt("Digite a nota do laboratorio"))
+        // let av = parseFloat(prompt("Digite a nota da avalicao semestral"))
+        // let exame =parseFloat(prompt("Digite a nota do exame final"))
+
+        // let resu = ((lab * 2) + (av * 3) + (exame * 5)) / 10
+        // console.log(resu)
+
+        //     if(resu >= 0 && resu <= 4.9){
+        //         console.log("Conceito E")
+        //     }
+        //     else if(resu > 4.9 && resu <= 5.9){
+        //         console.log("Conceito D")
+        //     }
+        // else if(resu > 5.9 && resu <= 6.9){
+        //     console.log("Conceito C")
+        // }
+        // else if(resu > 6.9 && resu <= 7.9){
+        //     console.log("Conceito B")
+        // }
+        // else if(resu > 7.9){
+        //     console.log("Conceito A")
+        // }
+
+
+        //Exercicios 2
+
+        // let num1 = parseInt(prompt("Digite um numero"))
+        // let num2 = parseInt(prompt("Digite outro numero"))
+
+        // if(num1 > num2){
+        //     console.log(`O ${num1} eh maior`)
+        // }
+        // else{console.log(`O ${num2} eh maior`)}
+
+
+        // Exercicio 3
+
+        let a = parseFloat(prompt("Digite um numero"))
+        let b = parseFloat(prompt("Digite outro numero"))
+        let c = parseFloat(prompt("Digite outro numero"))
+        let d = 0
+        let e = d
+
+        if(a > d){
+          d = a 
+        } 
+        if(b > d){
+         d = b
+        }
+        if(c > d){
+            d = c
+        }
+
+        if(a < e){
+            e = a
+        }
+        if(b < e){
+            e = b
+        }
+        if(c < e){
+            e = c
+        }
+
+         var f = (a + b + c) - (d + e) 
+
+         console.log(d, f , e) 
+
+
+        //Exercicio 4
+
+        // let a = parseFloat(prompt("Digite um numero"))
+        // let b = parseFloat(prompt("Digite outro numero"))
+        // let c = parseFloat(prompt("Digite outro numero"))
+        // let d = 0
+        // let e = 1
+
+        // e = a
+
+        // if(a > d){
+        //   d = a 
+        // } 
+        // if(b > d){
+        //  d = b
+        // }
+        // if(c > d){
+        //     d = c
+        // }
+
+        // if(b < e){
+        //     e = b
+        // }
+        // if(c < e){
+        //     e = c
+        // }
+
+        //  var f = (a + b + c) - (d + e) 
+
+        //  if(a == b && b == a){
+        //      console.log("Os numeros sao iguais")
+        //  } 
+        //  else{
+        //      console.log(e, f, d)
+        //  }
+
+        //Exercicio 5
+
+        // let a = parseFloat(prompt("Digite um numero"))
+        // let b = parseFloat(prompt("Digite outro numero"))
+        // let c = parseFloat(prompt("Digite outro numero"))
+
+        // if(a < b && b < c){
+        //     console.log("Os numeros foram digitados em ordem crescente")
+        // }
+        // else{
+        //     console.log("os numeros nao foram difitados em ordem crescente")
+        // }
+
+        //Exercicio 6
+
+        // let a = parseInt(prompt("Digite um numerp"))
+
+        // if(a % 2 == 0){
+        //     console.log("Numero par")
+        // }
+        // else{
+        //     console.log("Numero impar")
+        // }
+
+        //Exercicio 7
+
+        // let a = parseInt(prompt("Digite um numero"))
+
+        // if(a % 10 == 0 && a % 5 == 0){
+        //     console.log("O numero eh multiplo de 5 e 10")
+        // }
+        // else if(a % 5 == 0){
+        //     console.log("O numero eh multiplo de 5")
+        // }
+        // else{
+        //     console.log("O numero nao eh multiplo de 5 e 10")
+        // }
+
+        //Exercicio 8 
+
+        // let a = parseInt(prompt("Digitew um numero"))
+        // let b = parseInt(prompt("Digite outro numero"))
+
+        // if(a + b > 10){
+        //     console.log("A soma dos numeros eh maior que 10")
+        // }
+        // else{
+        //     console.log("A soma dos numeros eh menor ou igual a 10")
+        // }
+
+        //Exercicio 9
+
+        // let a = parseInt(prompt("Digite um numero"))
+        // let b = parseInt(prompt("DDigite outro numero"))
+
+        // if(a == b){
+        //     console.log("Os numeros sao iguais")
+        // }
+        // else{
+        //     console.log("Os numeros nao sao iguais")
+        // }
+
+        //Exercicio 10
+
+        // let num1 = parseInt(prompt("Digite um numero"))
+        // let num2 = parseInt(prompt("Digite outro numero"))
+
+        // if(num1 % num2 == 0){
+        //     console.log(`${num1} eh divisivel por ${num2}`)
+        // }
+        // else{
+        //     console.log(`${num1} nao eh divisivel por ${num2}`)
+        // }
+
+        // Exercicio 11
+
+        // let a = parseInt(prompt("Digite um numero"))
+        // let b = parseInt(prompt("Digite outro numero"))
+
+        // if(a > b){
+        //     console.log(`${a} eh maior`)
+        // }
+        // else{
+        //     console.log(`${b} eh maior`)
+        // }
+
+        // Exercicio 12
+
+        // let a = prompt("Digite sua senha")
+
+        // if(a == 1214){
+        //     console.log("Voce tem acesso ao sistema")
+        // }
+        // else{
+        //     console.log("Voce nao tem acesso ao sistema")
+        // }
+
+        // Exercicio 13
+
+        // let a = prompt("Digite sua senha")
+
+        // if(a == "FIAP1TDS"){
+        //     console.log("Acesso permetido")
+        // }
+        // else{
+        //     console.log("Voce nao tem acesso ao sistema")
+        // }
+
+        // Exercicio 14
+
+        // let a = parseFloat(prompt("Digite um numero"))
+        // let b = parseFloat(prompt("Digite outro numero"))
+        // let c = parseFloat(prompt("Digite outro numero"))
+
+        // if (a + b < c || a + c < b || b + c < a) {
+        //     console.log("Os numeros nao formam um triangulo")
+        // }
+        // else if (a == b && b == c) {
+        //     console.log("Os numeros formam um triangulo equilatero")
+        // }
+        // else if (a == b || b == c || a == c) {
+        //     console.log("Os numeros formam um triangulo isosceles")
+        // }
+        // else {
+        //     console.log("Os numeros formam um triangulo escaleno")
+        // }
+
+// Exercicio 15
+
+// let nome = prompt("Digite o nome do aluno")
+// let nota1 = parseFloat(prompt("Primeira nota do aluno"))
+// let nota2 = parseFloat(prompt("Segunda nota do aluno"))
+// let nota3 = parseFloat(prompt("Terceira nota do aluno"))
+// let faltas = parseInt(prompt("Faltas do aluno"))
+
+// if(faltas > 20){
+//     console.log(`O aluno ${nome} reprovou por falta`)
+// }
+// else if((nota1 + nota2 + nota3) / 3 < 7){
+//     console.log(`O aluno ${nome} reprovou por Media`)
+// }
+// else{
+//     console.log(`O aluno ${nome} aprovou`)
+// }
+
+// Exercicio 16
+
+// let numero = parseFloat(prompt("Digite um numero"))
+
+// if(numero >= 0 && numero <= 30){
+//     console.log(`O numero ${numero} esta compreendido entre 0 e 30`)
+// }
+// else if(numero >= 40 && numero <= 79){
+//     console.log(`O numero ${numero} esta compreendido entra 40 e 79`)
+// }
+// else{
+//     console.log(`O numero ${numero} esta fora dos limites estabelecidos`)
+// }
+
+// Exercicios 17
+
+// let compra = parseFloat(prompt("Valor de compra do produto"))
+
+// if(compra < 20){
+//     let venda = ((compra * 45) / 100) + compra
+//     console.log(`O produto deve ser vendido a ${venda} reais`)
+// }
+// else{
+//     let venda = ((compra * 30) / 100) + compra
+//     console.log(`O produto deve ser vendido a ${venda} reais`)
+// }
+
+// Exercicio 18
+
+let menu = parseInt(prompt("Escolha uma das opcoes: 1.Somar dois numeros / 2.Tirar a raiz de um numero"))
+
+if(menu == 1){
+    let num1 = parseFloat(prompt("Digite um numero"))
+    let num2 = parseFloat(prompt("Digite outro numero"))
+    let resultado = num1 + num2
+    console.log(`${num1} + ${num2} = ${resultado}`)
+}
+else{
+    let num1 = parseFloat(prompt("Digite um numero"))
+    let num2 = Math.sqrt(num1)
+
+    console.log(`A raiz de ${num1} eh ${num2}`)
+}
+
+    </script>
+
+
+
+
+</body>
+
+</html>

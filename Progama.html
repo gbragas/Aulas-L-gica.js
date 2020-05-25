@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mega</title>
+</head>
+<body>
+    
+<script>
+
+function gerar(){
+    var numeros = [42, 20, 03, 59, 31, 30, 07, 24, 09, 10, 26, 12, 13, 35, 15, 53, 47, 18]
+    var numeroSorteado = []
+
+    for(let i = 0; i < 7; i++){
+        while(true){
+            var jogo = Math.floor(Math.random() * 18)
+            var repetido = 0
+            for(j = 0; j < numeroSorteado.length; j++){
+                if(numeros[jogo] == numeroSorteado[j]){
+                    repetido++
+                }
+            }
+            if(repetido == 0){
+                break;
+            }
+        }
+        numeroSorteado.push(numeros[jogo])
+    }
+    console.log(numeroSorteado)
+    return numeroSorteado
+}
+
+var seqSorteada = []
+var seqRep = 0
+while(true){
+    for(w = 0; w < seqSorteada.length; w++){
+        if(gerar() == seqSorteada){
+            seqRep++
+        }
+    }    
+    if(seqRep == 0){
+        break;
+    }
+}    
+seqSorteada.push(gerar())
+
+for(let i = 0; i < 64; i++){
+    gerar()
+}
+</script>
+
+
+
+
+
+
+
+</body>
+</html>
